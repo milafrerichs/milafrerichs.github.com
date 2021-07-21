@@ -10,7 +10,7 @@ My name is Mila, and I'm a Data Visualization and Open Data Consultant.
 
 <iframe src="https://player.vimeo.com/video/575771062" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-As I said in the video (have you watched it yet? 😁, I would love to be part of the ProPublica family as a freelancer. 
+As I said in the video (have you watched it yet? 😁, I would love to be part of the ProPublica family as a freelancer.
 
 I'm Mila, I am a civic hacker who turned his passion into his profession seven years ago. And ever since I've worked in the civic tech sector, helping advocacy groups, foundations and governments improve the life of citizens.
 
@@ -54,7 +54,6 @@ The project Code Enforcement violations came out of discussions I saw on twitter
 
 Luckily the City of San Diego did publish Code Enforcement Violations as Open Data on their Open Data Portal. So I dove into the data and tried to find evidence for the claims.
 
-  
 ![](https://res.cloudinary.com/civicvision/image/upload/v1626877953/milafrerichs.com/projects/Bildschirmfoto_2021-07-21_um_16.19.21.png)
 
 ![](https://res.cloudinary.com/civicvision/image/upload/v1626877954/milafrerichs.com/projects/Bildschirmfoto_2021-07-21_um_16.19.30.png)![](https://res.cloudinary.com/civicvision/image/upload/v1626877954/milafrerichs.com/projects/Bildschirmfoto_2021-07-21_um_16.19.45.png)
