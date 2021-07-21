@@ -2,95 +2,98 @@
 - title: Open Data Catalog
   type: analysis
   work: Bertelsmann
-  date: "2020-04-06"
-  description: Collecting, cleaning, analyzing and categorizing of Open Data datasets for all municipalities with Open Data portals of NRW in Germany.
+  date: 2020-04-06
+  description: Collecting, cleaning, analyzing and categorizing of Open Data datasets
+    for all municipalities with Open Data portals of NRW in Germany.
   link: http://musterdatenkatalog.de/
-  cloudinary: "milafrerichs.com/projects/musterdatenkatalog.png"
+  cloudinary: milafrerichs.com/projects/musterdatenkatalog.png
   featured: true
   technologies:
-    - R
-    - Makefiles
+  - R
+  - Makefiles
   list:
-  - "appalachia"
-  - "mlab"
-  - "opendata"
+  - propublica
+  - appalachia
+  - mlab
+  - opendata
 - title: How Americans Sleep
   type: visualization
   work: private
   technologies:
-    - vega
-  link: /articles/makeover-monday-how-americans-sleep/
-  cloudinary: "milafrerichs.com/articles/makeover-sleepless.png"
-  date: "2019-06-06"
+  - vega
+  link: "/articles/makeover-monday-how-americans-sleep/"
+  cloudinary: milafrerichs.com/articles/makeover-sleepless.png
+  date: 2019-06-06
   languages:
   - JavaScript
 - title: Toronto High Rise Building inspection
   type: visualization
   work: private
   technologies:
-    - d3.js
-    - vega
-  link: /articles/toronto-high-rise-building-inspection/
-  date: "2019-03-05"
-  cloudinary: "milafrerichs.com/articles/toronto-highrise.png"
+  - d3.js
+  - vega
+  link: "/articles/toronto-high-rise-building-inspection/"
+  date: 2019-03-05
+  cloudinary: milafrerichs.com/articles/toronto-highrise.png
   languages:
   - JavaScript
 - title: Child Care Cost Bay Area
   type: visualization
   work: private
-  date: "2019-04-05"
+  date: 2019-04-05
   technologies:
-    - vega
-  link: /articles/child-care-cost-bay-area/
-  cloudinary: "milafrerichs.com/articles/child-care-bay-area.png"
+  - vega
+  link: "/articles/child-care-cost-bay-area/"
+  cloudinary: milafrerichs.com/articles/child-care-bay-area.png
   languages:
   - JavaScript
 - title: Louisville Bird data
   type: visualization
   work: private
-  date: "2018-11-01"
-  cloudinary: "milafrerichs.com/articles/bird-louisville.png"
+  date: 2018-11-01
+  cloudinary: milafrerichs.com/articles/bird-louisville.png
   technologies:
-    - vega
-  link: /articles/louisville-bird/
+  - vega
+  link: "/articles/louisville-bird/"
   languages:
   - JavaScript
 - title: Crime in San Diego
   type: visualization
   work: private
-  date: "2015-10-18"
+  date: 2015-10-18
   technologies:
-    - d3.js
-  cloudinary: "milafrerichs.com/projects/crime-san-diego.png"
-  link: "https://civic.vision/crime-san-diego/"
+  - d3.js
+  cloudinary: milafrerichs.com/projects/crime-san-diego.png
+  link: https://civic.vision/crime-san-diego/
   languages:
   - JavaScript
 - title: Single Family Zoning
   featured: true
   type: visualization
   work: private
-  date: "2019-07-05"
-  description: Inspired by an article from the New York Times I wanted to create the same map about Single Family zoning for San Diego.
+  date: 2019-07-05
+  description: Inspired by an article from the New York Times I wanted to create the
+    same map about Single Family zoning for San Diego.
   technologies:
-    - d3.js
-  link: /articles/sandiego-zoning/
+  - d3.js
+  link: "/articles/sandiego-zoning/"
   languages:
   - JavaScript
   cloudinary: milafrerichs.com/articles/building-zoning-san-diego-high-res.jpg
   list:
-  - "stamen"
-  - "appalachia"
-  - "mlab"
+  - stamen
+  - appalachia
+  - mlab
 - title: Precision Farming
   type: application
   featured: true
   client: Yara
   work: client
-  date: '2018-03-01'
+  date: 2018-03-01
   duration: 10
   description: For the agriculture giant __Yara__ I helped develop an app for farmers.
-    Creating an __interactive map__ with the ability to create fields and
-    application maps. 
+    Creating an __interactive map__ with the ability to create fields and application
+    maps.
   technologies:
   - react
   - mapbox-draw
@@ -104,9 +107,9 @@
   cloudinary: milafrerichs.com/projects/at-farm
   image_position: bg-center
   list:
-  - "stamen"
-  - "salzbrunn"
-  - "mlab"
+  - stamen
+  - salzbrunn
+  - mlab
 - title: Election Map
   description: "During the 2014 local election in the town I was living at the time
     I created an __live-updating__, interactive election map. \n"
@@ -117,19 +120,18 @@
   - d3
   languages:
   - JavaScript
-  date: '2014-09-01'
-  featured: true
+  date: 2014-09-01
   github: codeformuenster/wahlkarte
   link: https://codeformuenster.org/wahlkarte
   cloudinary: milafrerichs.com/projects/election_map.png
   image_position: bg-center
   list:
-  - "stamen"
+  - stamen
 - title: Infrastructure San Diego
-  description: "For the __Community Planning Groups of San Diego__, I developed a
-    dashboard and supporting tools to increase __transparency in the planning process__."
+  description: For the __Community Planning Groups of San Diego__, I developed a dashboard
+    and supporting tools to increase __transparency in the planning process__.
   client: Infrastructure commitee of the City Council, San Diego
-  date: '2014-03-01'
+  date: 2014-03-01
   duration: 4
   github: opensandiego/infrastructure
   featured: true
@@ -139,8 +141,8 @@
   - JavaScript
   - Python
   list:
-  - "stamen"
-  - "salzbrunn"
+  - stamen
+  - salzbrunn
 - title: Energy Production germany
   description: "Inspired by the Washington Posts Energy production map for the United
     States, I found and cleaned the data for Germany and created a similar map for
@@ -151,13 +153,13 @@
   - d3
   languages:
   - JavaScript
-  date: '2016-08-01'
+  date: 2016-08-01
   url: https://civic.vision/energy-production-germany/
   github: CivicVision/energy-production-germany
   cloudinary: milafrerichs.com/projects/energy-production-germany
 - title: Armsexport Map
-  description: "
-    In cooperation with the OKF and BICC I updated the __interactive map__ from BICC to improve the __readability__ and __interactivity__."
+  description: " In cooperation with the OKF and BICC I updated the __interactive
+    map__ from BICC to improve the __readability__ and __interactivity__."
   type: visualization
   featured: true
   duration: 1
@@ -165,28 +167,26 @@
   github: okfde/armsexport-map
   url: http://okfde.github.io/armsexport-map/
   cloudinary: milafrerichs.com/projects/armsexport_map.png
-  date: '2014-12-29'
+  date: 2014-12-29
   technologies:
   - knockout
   - mapbox
   languages:
   - JavaScript
   list:
-  - "stamen"
-  - "appalachia"
-  - "salzbrunn"
-  - "mlab"
-- title: 'Recovery Dashboard'
+  - stamen
+  - appalachia
+  - salzbrunn
+  - mlab
+- title: Recovery Dashboard
   description: "Following the Mw 7.8 earthquake in Nepal, the World Bank Nepal response
     team has been collecting and curating spatial data useful for damage assessments
-    . I worked for the
-    __GFDRR__ team to create a __geospatial dashboard__ 
-    . \n"
+    . I worked for the __GFDRR__ team to create a __geospatial dashboard__ . \n"
   featured: true
   type: dashboard
   github: GFDRR/recovery_dashboard
   cloudinary: milafrerichs.com/projects/recovery-dashboard-nepal.png
-  date: '2015-05-23'
+  date: 2015-05-23
   duration: 2
   client: Terranodo
   technologies:
@@ -195,8 +195,8 @@
   languages:
   - JavaScript
   list:
-  - "stamen"
-  - "salzbrunn"
+  - stamen
+  - salzbrunn
 - title: State Budget Visualization
   description: 'The finance ministry of the state of Rheinland-Pfalz in Germany wanted
     to increase transparency and publish their budget in a visually appealing way.
@@ -212,15 +212,15 @@
   - transparency
   - ease-of-use
   cloudinary: milafrerichs.com/projects/open-spending-rp.png
-  date: '2017-07-12'
+  date: 2017-07-12
   duration: 3
   client: Finance Ministery Rheinland-Pfalz
   languages:
   - JavaScript
   list:
-  - "stamen"
-  - "appalachia"
-  - "mlab"
+  - stamen
+  - appalachia
+  - mlab
 - title: Travel Safety Map
   description: 'The Travel Safety startup __GeoSure__ wanted to find new revenue models
     for their travel data and reached out to me to help them. I build an __interactive
@@ -229,7 +229,7 @@
 '
   featured: true
   client: GeoSure
-  date: '2015-07-08'
+  date: 2015-07-08
   duration: 12
   type: tool
   technologies:
@@ -238,14 +238,14 @@
   - d3
   cloudinary: milafrerichs.com/projects/geosure
   list:
-  - "salzbrunn"
+  - salzbrunn
 - title: Geonode Viewer
   description: 'For the Open Source project __Geonode__ I developed a new client for
     __displaying and editing maps__. Based on React and OpenLayers I created a new
     map client, that was later extended with raster styling capabilities for Novel-T.
 
 '
-  date: '2016-10-08'
+  date: 2016-10-08
   duration: 6
   type: tool
   github: geonode/geonode-client
@@ -258,26 +258,26 @@
   cloudinary: milafrerichs.com/projects/geonode-client
   link: http://client.geonode.org
   list:
-  - "stamen"
-  - "salzbrunn"
+  - stamen
+  - salzbrunn
 - title: Open Data Harvester
   description: "To analyze the metadata of the different Open Data Portals of the
-    city of Berlin the Technology Foundation hired me to __aggregate and automate__ the
-    metadata collection. \n"
+    city of Berlin the Technology Foundation hired me to __aggregate and automate__
+    the metadata collection. \n"
   featured: true
   github: technologiestiftung/OpenData-Harvester
-  date: '2017-12-01'
+  date: 2017-12-01
   duration: 1
   client: Technologiestiftung Berlin
-  cloudinary: "milafrerichs.com/projects/robert-wiedemann-FJGZFxtQWko-unsplash"
+  cloudinary: milafrerichs.com/projects/robert-wiedemann-FJGZFxtQWko-unsplash
   languages:
   - Python
   technologies:
   - AWS
   - CKAN
   list:
-  - "appalachia"
-  - "mlab"
+  - appalachia
+  - mlab
 - title: WFS Tool
   description: 'The goal was to create a tool to convert WFS features into diferent
     formats without using the command line. The resulting tool would eventually be
@@ -285,81 +285,76 @@
 
 '
   github: milafrerichs/node-wfs
-  date: '2017-12-01'
+  date: 2017-12-01
   duration: 1
   client: Technologiestiftung Berlin
   languages:
   - JavaScript
   technologies:
   - WFS
-- title: "Code Enforement Violations San Diego"
+- title: Code Enforement Violations San Diego
   type: visualization
   work: private
   technologies:
-    - d3.js
-  link: "https://civic.vision/code_enforcement_violations_sd/"
-  cloudinary: "milafrerichs.com/projects/code-enforcement.png"
-  date: "2016-10-26"
+  - d3.js
+  link: https://civic.vision/code_enforcement_violations_sd/
+  cloudinary: milafrerichs.com/projects/code-enforcement.png
+  date: 2016-10-26
   languages:
   - JavaScript
-
-- title: "Bicycle Accidents Germany"
+- title: Bicycle Accidents Germany
   type: visualization
   work: private
   technologies:
-    - d3.js
-  link: "http://milafrerichs.de/fahrradunfaelle/"
-  cloudinary: "milafrerichs.com/projects/accidents_map.png"
-  date: "2013-02-06"
+  - d3.js
+  link: http://milafrerichs.de/fahrradunfaelle/
+  cloudinary: milafrerichs.com/projects/accidents_map.png
+  date: 2013-02-06
   languages:
   - JavaScript
-
-- title: "Child Care Support"
+- title: Child Care Support
   type: visualization
   work: private
   technologies:
-    - d3.js
-  link: "https://civic.vision/betreuungsgeld/"
-  cloudinary: "milafrerichs.com/projects/betreuungsgeld.png"
-  date: "2016-10-26"
+  - d3.js
+  link: https://civic.vision/betreuungsgeld/
+  cloudinary: milafrerichs.com/projects/betreuungsgeld.png
+  date: 2016-10-26
   languages:
   - JavaScript
-
-- title: "Failed Bank Tracker"
+- title: Failed Bank Tracker
   type: visualization
   work: private
   technologies:
-    - d3.js
-  link: "http://milafrerichs.de/failed-bank-tracker-map/"
-  cloudinary: "milafrerichs.com/projects/failed-bank-tracker.png"
-  date: "2015-04-26"
+  - d3.js
+  link: http://milafrerichs.de/failed-bank-tracker-map/
+  cloudinary: milafrerichs.com/projects/failed-bank-tracker.png
+  date: 2015-04-26
   languages:
   - JavaScript
-
-- title: "Chicago Housing Burden"
+- title: Chicago Housing Burden
   type: visualization
   work: private
   technologies:
-    - d3.js
-  link: "http://milafrerichs.de/chicago-housing-burden/"
-  cloudinary: "milafrerichs.com/projects/chicago-housing-burden.png"
-  date: "2019-09-26"
+  - d3.js
+  link: http://milafrerichs.de/chicago-housing-burden/
+  cloudinary: milafrerichs.com/projects/chicago-housing-burden.png
+  date: 2019-09-26
   languages:
   - JavaScript
-
-- title: "Vision Zero Dashboard"
+- title: Vision Zero Dashboard
   type: visualization
   work: private
-  description: Data Analysis and visualizations regarding traffic fatalities in the city of San Diego using Open Data.
+  description: Data Analysis and visualizations regarding traffic fatalities in the
+    city of San Diego using Open Data.
   technologies:
-    - d3.js
-    - GoogleMaps
-  link: "https://civic.vision/vision-zero-dashboard/"
-  cloudinary: "milafrerichs.com/projects/vision-zero-dashboard.png"
-  date: "2018-08-26"
+  - d3.js
+  - GoogleMaps
+  link: https://civic.vision/vision-zero-dashboard/
+  cloudinary: milafrerichs.com/projects/vision-zero-dashboard.png
+  date: 2018-08-26
   languages:
   - JavaScript
   list:
-  - "appalachia"
-  - "mlab"
-
+  - appalachia
+  - mlab
