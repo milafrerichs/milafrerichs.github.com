@@ -10,7 +10,7 @@ My name is Mila, and I'm a Data Visualization and Open Data Consultant.
 
 <iframe src="https://player.vimeo.com/video/575771062" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-As I said in the video (have you watched it yet? 😁, I would love to be part of the ProPublica family as a freelancer.
+As I said in the video (have you watched it yet? 😁), I would love to be part of the ProPublica family as a freelancer.
 
 I'm Mila, I am a civic hacker who turned his passion into his profession seven years ago. And ever since I've worked in the civic tech sector, helping advocacy groups, foundations and governments improve the life of citizens.
 
