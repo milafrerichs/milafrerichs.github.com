@@ -15,14 +15,12 @@
   type: analysis
   work: Bertelsmann
   date: 2020-04-06
-  description: Collecting, cleaning, analyzing and categorizing of Open Data datasets
-    for all municipalities with Open Data portals of NRW in Germany.
+  description: Collecting, cleaning, analyzing and categorizing (using machine learning)
+    of Open Data datasets for all municipalities with Open Data portals in Germany.
   link: http://musterdatenkatalog.de/
   cloudinary: milafrerichs.com/projects/musterdatenkatalog.png
   featured: true
-  technologies:
-  - R
-  - Makefiles
+  technologies: R,Makefiles,Django,ML
   list:
   - propublica
   - appalachia
