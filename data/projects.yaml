@@ -67,6 +67,8 @@
   link: https://civic.vision/crime-san-diego/
   languages:
   - JavaScript
+  list:
+  - propublica
 - title: Single Family Zoning
   featured: true
   type: visualization
@@ -141,6 +143,7 @@
   - JavaScript
   - Python
   list:
+  - propublica
   - stamen
   - salzbrunn
 - title: Energy Production germany
