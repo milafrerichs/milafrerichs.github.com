@@ -1,4 +1,16 @@
 ---
+- title: AirBnB San Diego
+  type: ''
+  work: ''
+  date: 2016-07-06T00:00:00+02:00
+  description: A small tool to find out if your address in San Diego allows the use
+    as an AirBnB according to the Municipal Code at the time in San Diego.
+  link: https://civic.vision/airbnb-san-diego
+  cloudinary: ''
+  featured: ''
+  technologies: ''
+  list:
+  - propublica
 - title: Open Data Catalog
   type: analysis
   work: Bertelsmann
