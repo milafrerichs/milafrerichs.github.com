@@ -1,7 +1,6 @@
 +++
 date = 2021-07-16T14:38:02Z
 description = ""
-draft = true
 title = "ProPublica-Freelancer"
 
 +++
