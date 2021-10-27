@@ -1,0 +1,13 @@
+= content nav
+  {{ partial "nav" . }}
+= content main
+  article.mt-24.text-lg.max-w-readable.mx-auto.container
+    header
+      h1.font-sans.text-4xl.text-black.font-bold.mb-16
+        {{.Title}}
+    .font-sans.text-lg.text-grey-darkest.spaced-y-6.leading-normal
+      {{ partial "content-wikilinks" . }}
+
+= content footer
+  .mt-24
+    {{ partial "footer" . }}

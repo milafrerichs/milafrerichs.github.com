@@ -1,0 +1,22 @@
+= content nav
+  {{ partial "nav" . }}
+= content main
+  .mt-24.relative.max-w-xl.container.mx-auto.divide-y-2.divide-gray-200.lg:max-w-7xl
+    div
+      h2.text-3xl.tracking-tight.font-extrabold.text-gray-900.sm:text-4xl
+        {{.Title}}
+      p.mt-3.text-xl.text-gray-500.sm:mt-4
+        {{.Content}}
+    ul.list-reset.mt-16.spaced-y-8
+      {{ range .Pages }}
+        li
+          div.flex
+             {{ range .Params.tags }}
+              .inline-flex.items-center.px-3.py-1.rounded-full.text-sm.font-medium.bg-blue-lightest.text-blue-darkest
+                 {{.}}
+             {{end}}
+          a.mt-4.block.text-lg.text-black.font-bold.no-underline.hover:underline href="{{ .Permalink }}" {{ .Title }}
+      {{ end }}
+= content footer
+  .mt-24
+    {{ partial "footer" . }}
