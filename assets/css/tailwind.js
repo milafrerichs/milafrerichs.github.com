@@ -510,6 +510,7 @@ module.exports = {
     '5/6': '83.33333%',
     'full': '100%',
     'screen': '100vw',
+    'readable': '65ch',
   },
 
 
@@ -622,6 +623,7 @@ module.exports = {
     '4xl': '90rem',
     '5xl': '100rem',
     'full': '100%',
+    'readable': '65ch',
   },
 
 
