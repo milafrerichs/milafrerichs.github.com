@@ -5,6 +5,14 @@
     header
       {{ partial "breadcrumps" . }}
       h1.font-sans.text-4xl.text-black.font-bold.mb-16.mt-6
+        span.block.text-grey-dark.uppercase.font-semibold.text-xs.tracking-wide.mb-2.spaced-x-1
+          time datetime="{{.Date}}" {{dateFormat "Jan 2, 2006" .Date}}
+          {{ if .Params.updated }}
+            span aria-hidden="true" &middot;
+            span
+              span Updated: &nbsp;
+              time datetime="{{.Params.updated}}" {{dateFormat "Jan 2, 2006" .Params.updated}}
+          {{end}}
         {{.Title}}
     .font-sans.text-lg.text-grey-darkest.spaced-y-6.leading-normal
       {{ partial "content-wikilinks" . }}
