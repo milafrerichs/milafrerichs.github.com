@@ -3,11 +3,22 @@
 = content main
   article.mt-24.text-lg.max-w-readable.mx-auto.container
     header
-      h1.font-sans.text-4xl.text-black.font-bold.mb-16
+      {{ partial "breadcrumps" . }}
+      h1.font-sans.text-4xl.text-black.font-bold.mb-16.mt-6
         {{.Title}}
     .font-sans.text-lg.text-grey-darkest.spaced-y-6.leading-normal
       {{ partial "content-wikilinks" . }}
 
+    {{ $backlinks := partial "func/backlinks" . }}
+    {{ if ge (len $backlinks) 1 }}
+    .mt-16
+      h4.text-grey-dark.mb-6 Backlinks
+      ul.list-dics
+      {{range $backlinks}}
+        li
+          a href="{{.link}}" {{.title}}
+      {{end}}
+    {{ end }}
 = content footer
   .mt-24
     {{ partial "footer" . }}
