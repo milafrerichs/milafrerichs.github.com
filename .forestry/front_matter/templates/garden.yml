@@ -1,4 +1,38 @@
 ---
 label: garden
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: p_resource
+  type: tag_list
+  default: []
+  label: Resource
+- name: areas
+  type: tag_list
+  default: []
+  label: Areas
+- name: p_projects
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Projects
