@@ -7,7 +7,7 @@
         {{.Title}}
       .mt-6.text-xl.text-grey-dark.sm:mt-4.spaced-y-8
         {{.Content}}
-    h3.mt-16.text-xl.font-bold.text-gray-darker Latest Posts
+    h3.mt-16.text-xl.font-bold.text-gray-darker {{ i18n "latest-posts" }}
     ul.list-cirlce
       {{ range .Pages }}
         li
