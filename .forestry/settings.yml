@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/de/garden
+  label: Garden (DE)
+  create: all
+  match: "**/*"
+  templates:
+  - garden
+- type: directory
   path: content/en/garden
   label: Garden (EN)
   create: all
