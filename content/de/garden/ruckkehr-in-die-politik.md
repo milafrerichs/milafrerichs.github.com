@@ -1,7 +1,6 @@
 +++
 areas = []
 date = 2021-11-24T09:00:00Z
-draft = true
 p_projects = ""
 p_resource = []
 title = "Rückkehr in die Politik?"
