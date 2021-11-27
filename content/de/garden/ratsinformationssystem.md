@@ -6,7 +6,7 @@ p_resource = []
 title = "Ratsinformationssystem"
 
 +++
-Seit meinen Entschluss wieder aktiver zu werden, habe ich mich versucht in die Themen, die aktuell schon behandelt werden, einzulesen.
+Seit meinen Entschluss wieder politisch aktiver zu werden, habe ich mich versucht in die Themen, die aktuell schon behandelt werden, einzulesen.
 
 Der erste Schritt ist natürlich das Ratsinformationssystem.
 
@@ -14,7 +14,7 @@ Oh boy, das ist ein Erlebnis.
 
 Die [Startseite](https://www.berlin.de/ba-charlottenburg-wilmersdorf/politik/bezirksverordnetenversammlung/online/allris.net.asp) ist „voll“ von Informationen.
 
-![](/v1637829968/milafrerichs.com/uploads/Bildschirmfoto_2021-11-25_um_09.45.35_azu8ei.png)
+![](https://res.cloudinary.com/civicvision/image/upload/v1638015148/milafrerichs.com/garden/vvv-ca-wi.png)
 
 Da ist der Einstieg hier schon ein wenig besser:
 
@@ -35,6 +35,6 @@ Wann leben wir, 1990?
 Andere Bezirken machen es da ein wenig besser.  
 Hier ist Marzahn:
 
-![](/v1638009111/milafrerichs.com/uploads/Bildschirmfoto_2021-11-27_um_11.31.42_krtadv.png)
+![](https://res.cloudinary.com/civicvision/image/upload/v1638014556/milafrerichs.com/garden/marzahn-bvv.png)
 
 Da hat wohl jemand in Charlottenburg-Wilmersdorf vergessen das Stylesheet zu aktivieren.
