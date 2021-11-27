@@ -22,7 +22,7 @@ Da ist der Einstieg hier schon ein wenig besser:
 
 Das versetzt mich zurück in 2011, als ich in der AG Sport aktiv war und die Ratsvorlagen in Münster gesucht habe. Das Rats_informations_system sah ähnlich aus.
 
-Und was zu meinem ersten Civic Tech Prototypen führte: Offner Rat Münster.
+Und was zu meinem ersten Civic Tech Prototypen führte: [Offener Rat Münster](https://github.com/codeformuenster/offenerrat-ms).
 
 Ich bin mir im Klaren, dass das nur der öffentliche Teil ist, aber es ist ersichtlich wie wenig Priorität die Benutzer der Software bekommen. Und Benutzer sind nicht nur die Bürger, ich denke nicht, dass die Abgeordneten ein bessere Benutzeroberfläche haben.
 
