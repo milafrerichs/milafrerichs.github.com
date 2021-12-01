@@ -37,6 +37,7 @@ fields:
       path: 
   label: Projects
 pages:
+- content/de/garden/mustervorlage-datenhoheit-in-kommunen-bei-vergaben.md
 - content/de/garden/open-data-kommunen-in-deutschland.md
 - content/de/garden/open-data-kommunen-in-deutschland.md
 - content/de/garden/open-data-portale-aus-schweden.md
