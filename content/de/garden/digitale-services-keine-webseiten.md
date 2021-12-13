@@ -1,7 +1,6 @@
 +++
 areas = []
 date = 2021-12-02T09:00:00Z
-draft = true
 p_projects = ""
 p_resource = []
 title = "Digitale Services, keine Webseiten"
