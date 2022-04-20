@@ -12,7 +12,8 @@ menu:
 <script id="reform-script" async src="https://embed.reform.app/v1/embed.js"></script>
 <script>
   Reform('init', {
-    url: 'https://forms.reform.app/yBAVkh/AUczFw/myzhrx',
+    url: 'https://forms.reform.app/yBAVkh/workwithme/myzhrx',
     target: '#my-reform',
+    background: 'transparent',
   })
 </script>
