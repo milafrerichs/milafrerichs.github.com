@@ -3,7 +3,7 @@ areas = []
 date = 2022-04-25T08:00:00Z
 p_projects = ""
 p_resource = []
-title = "Geänderte Verbindlichkeiten bei DCAT-AP"
+title = "Geänderte Verbindlichkeiten bei DCAT-AP.de"
 
 +++
 Einige der wichtigsten Änderungen sind die neuen Verbindlichkeiten von Feldern. 
