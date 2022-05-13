@@ -1,9 +1,6 @@
-var tailwindcss = require('tailwindcss');
+var tailwindcss = 
 module.exports = {
   plugins: [
-    tailwindcss('./assets/css/tailwind.js'),
-    require('autoprefixer')({
-      browsers: ['>1%']
-    }),
+    require('tailwindcss')('./assets/css/tailwind.config.js'),
   ]
 };

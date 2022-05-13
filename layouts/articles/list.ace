@@ -1,7 +1,7 @@
 = content nav
   {{ partial "nav" . }}
 = content main
-  .font-sans.text-lg.text-grey-darkest.spaced-y-6
+  .mt-24.font-sans.text-lg.text-grey-darkest.spaced-y-6
     {{.Content}}
     .mt-16
       {{ range .Pages.ByDate.Reverse }}

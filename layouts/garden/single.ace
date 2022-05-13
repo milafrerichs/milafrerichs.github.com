@@ -14,7 +14,7 @@
               time datetime="{{.Params.updated}}" {{dateFormat "Jan 2, 2006" .Params.updated}}
           {{end}}
         {{.Title}}
-    .font-sans.text-lg.text-grey-darkest.spaced-y-6.leading-normal
+    .font-sans.text-lg.text-gray-800.leading-normal.prose.lg:prose-xl
       {{ partial "content-wikilinks" . }}
 
     {{ $backlinks := partial "func/backlinks" . }}
