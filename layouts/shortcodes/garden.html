@@ -1,0 +1,3 @@
+{{ range where $.Site.Pages ".Params.frontpage" "eq" true  }}
+  <a class="no-underline hover:underline" href="{{.Permalink}}">{{.Title}}</a>
+{{ end  }}
