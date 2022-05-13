@@ -7,6 +7,14 @@ fields:
   config:
     required: true
   label: title
+fields:
+- name: frontpage
+  type: boolean
+  label: Show on frontpage?
+  description: Mark this page as featured
+  default: false
+  hidden: false
+  label: title
 - name: date
   type: datetime
   label: date

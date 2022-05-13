@@ -18,3 +18,4 @@
 
 {{< articles "frontpage" >}}
 {{</ articles >}}
+{{< garden >}}
