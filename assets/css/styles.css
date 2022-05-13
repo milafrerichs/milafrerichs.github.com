@@ -1,5 +1,5 @@
 /* Base - Variables: tailwind-config.js */
-@tailwind preflight;
+@tailwind base;
 
 a {
 	@apply text-cv font-bold no-underline;
@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5 {
 @tailwind utilities;
 
 .markdown {
-	@apply text-lg leading-normal text-grey-darker;
+	@apply text-lg leading-normal text-gray-700;
 }
 .markdown a {
   @apply no-underline;
@@ -29,10 +29,10 @@ h1,h2,h3,h4,h5 {
   @apply mt-4;
 }
 .markdown h2 {
-  @apply mb-2 mt-10 text-xl text-grey-darkest leading-tight;
+  @apply mb-2 mt-10 text-xl text-gray-800 leading-tight;
 }
 .markdown h3 {
-  @apply -mb-2 mt-6 text-lg text-grey-darkest leading-tight;
+  @apply -mb-2 mt-6 text-lg text-gray-800 leading-tight;
 }
 .markdown code {
   font-size: .875rem;
@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .btn {
-	@apply text-lg text-white bg-blue font-bold text-center rounded-sm p-4 w-1/2;
+	@apply text-lg text-white bg-blue-500 font-bold text-center rounded-sm p-4 w-1/2;
 }
 .btn a{
 	@apply text-white no-underline;
@@ -97,6 +97,12 @@ h1,h2,h3,h4,h5 {
 
 #bg-image {
   transition: filter .2s,opacity 2s;
+}
+body .scroll-nav{
+  visibility: hidden;
+}
+body.scroll .scroll-nav{
+  visibility: visible;
 }
 body.scroll #bg-image{
   opacity: 0.10;

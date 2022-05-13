@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
     "postcss-cli": "^6.1.1",
     "tailwindcss-spaced-items": "^0.1.0"
   },
@@ -11,7 +13,7 @@
     "start": "hugo --gc"
   },
   "devDependencies": {
-    "autoprefixer": "^9.4.5",
-    "tailwindcss": "^0.7.3"
+    "@tailwindcss/typography": "^0.4.1",
+    "tailwindcss": "^2.2.19"
   }
 }

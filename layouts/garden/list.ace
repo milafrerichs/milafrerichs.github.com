@@ -1,13 +1,13 @@
 = content nav
   {{ partial "nav" . }}
 = content main
-  .mt-24.relative.max-w-xl.container.mx-auto.divide-y-2.divide-grey-light.lg:max-w-7xl
+  .mt-24.relative.max-w-xl.container.mx-auto.divide-y-2.divide-gray-200.lg:max-w-7xl
     div
       h2.text-3xl.tracking-tight.font-extrabold.text-grey-darkest.sm:text-4xl
         {{.Title}}
-      .mt-6.text-xl.text-grey-dark.sm:mt-4.spaced-y-8
+      .mt-6.text-xl.text-gray-600.sm:mt-4.spaced-y-8.prose
         {{.Content}}
-    h3.mt-16.text-xl.font-bold.text-gray-darker {{ i18n "latest-posts" }}
+    h3.mt-16.text-xl.font-bold.text-gray-darker.py-4 {{ i18n "latest-posts" }}
     ul.list-cirlce
       {{ range .Pages }}
         li

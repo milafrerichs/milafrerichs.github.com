@@ -20,9 +20,9 @@ html lang=en
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
   body
+    = yield nav
     main.container.py-8.relative.px-4.md:p-0 role="main"
       = yield language
-      = yield nav
       = yield header
       = yield main
     = yield footer
