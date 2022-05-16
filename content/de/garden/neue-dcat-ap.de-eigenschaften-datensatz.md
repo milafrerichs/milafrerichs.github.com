@@ -23,22 +23,23 @@ Neu hinzugekommen sind die folgenden Eigenschaften eines Datensatzes:
 
 ## Verfügbarkeit `dcatap:availability`
 
-> Geplante Verfügbarkeit des Datensatzes als Auswahl aus einer festen Liste von Werten via DCAT-AP URIs.  DCAT-AP.de macht Vorgaben zur zu verwendenden Codeliste.
+> Geplante Verfügbarkeit des Datensatzes als Auswahl aus einer festen Liste von Werten via DCAT-AP URIs.
+> DCAT-AP.de macht Vorgaben zur zu verwendenden Codeliste.
 
 Diese Verfügbarkeitsgrade geben an, wie lange geplant ist, das Dokument verfügbar zu halten.
 
 Aktuell sind folgende Eigenschaften erlaubt:
 
-**AVAILABLE**
+**AVAILABLE**  
 Data is available for a few years, medium term planning.
 
-**EXPERIMENTAL**
+**EXPERIMENTAL**  
 Data is available on a trial basis for a short period, short term planning.
 
-**STABLE**
+**STABLE**  
 Data will remain available in the long term.
 
-**TEMPORARY**
+**TEMPORARY**  
 Data can disappear at any time, no planning.
 
 Ich habe vor mal eine ausführliche Analyse der verwendeten Metadatenfelder auf govdata durchzuführen.
