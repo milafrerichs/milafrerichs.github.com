@@ -11,15 +11,15 @@ In der neuen Version 2.0 hat ein Datensatz ein paar interessante neue Eigenschaf
 
 Neu hinzugekommen sind die folgenden Eigenschaften eines Datensatzes:
 
-* dcatap:availability
-* dcat:temporalResolution
-* dcat:qualifiedRelation
-* dct:isReferencedBy
-* dct:references
-* prov:qualifiedAttribtuion
-* dcat:spatialResoltionInMeters
-* prov:wasGeneratedBy
-* dcatde:qualityProcessURI
+* `dcatap:availability`
+* `dcat:temporalResolution`
+* `dcat:qualifiedRelation`
+* `dct:isReferencedBy`
+* `dct:references`
+* `prov:qualifiedAttribtuion`
+* `dcat:spatialResoltionInMeters`
+* `prov:wasGeneratedBy`
+* `dcatde:qualityProcessURI`
 
 ## Verfügbarkeit `dcatap:availability`
 
