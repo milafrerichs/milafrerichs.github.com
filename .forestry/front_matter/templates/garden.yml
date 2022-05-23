@@ -2,12 +2,11 @@
 label: garden
 hide_body: false
 fields:
-- name: frontpage
-  type: boolean
-  label: title
-  description: Mark this page as featured
-  default: false
-  hidden: false
+- name: title
+  type: text
+  config:
+    required: true
+  label: Titel
 - name: date
   type: datetime
   label: date
@@ -17,6 +16,12 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: frontpage
+  type: boolean
+  description: Mark this page as featured
+  default: false
+  hidden: false
+  label: Show on frontpage?
 - name: p_resource
   type: tag_list
   default: []
