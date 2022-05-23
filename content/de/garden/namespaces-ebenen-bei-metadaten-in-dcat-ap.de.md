@@ -1,8 +1,7 @@
 +++
 areas = []
 date = 2022-05-23T08:00:00Z
-draft = true
-frontpage = false
+frontpage = true
 p_projects = ""
 p_resource = []
 title = "Namespaces / Ebenen bei Metadaten in DCAT-AP.de"
