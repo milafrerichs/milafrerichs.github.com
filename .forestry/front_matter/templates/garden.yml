@@ -42,6 +42,15 @@ fields:
       file: 
       path: 
   label: Projects
+- name: updated
+  type: datetime
+  label: Updated
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - content/de/garden/digitale-services-keine-webseiten.md
 - content/de/garden/geanderte-verbindlichkeiten-bei-dcat-ap.md
