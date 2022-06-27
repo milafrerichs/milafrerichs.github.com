@@ -1,11 +1,11 @@
 +++
 areas = []
 date = 2022-06-03T15:00:00Z
-draft = true
 frontpage = true
 p_projects = ""
 p_resource = []
 title = "Metadaten, der Weg zu 5 Sterne Open Data?"
+updated = ""
 
 +++
 Sind Metadaten der Weg zum Ziel von 5 Sterne Open Data? 
