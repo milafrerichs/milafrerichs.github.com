@@ -17,6 +17,9 @@
     .font-sans.text-lg.text-gray-800.leading-normal.prose.lg:prose-xl
       {{ partial "content-wikilinks" . }}
 
+    {{ if in .Params.p_resource "opendata" }}
+      {{ partial "newsletter.html" . }}
+    {{end}}
     {{ $backlinks := partial "func/backlinks" . }}
     {{ if ge (len $backlinks) 1 }}
     .mt-16

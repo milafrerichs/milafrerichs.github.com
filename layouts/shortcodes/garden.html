@@ -1,3 +1,5 @@
+<ul>
 {{ range where $.Site.Pages ".Params.frontpage" "eq" true  }}
-  <a class="no-underline hover:underline" href="{{.Permalink}}">{{.Title}}</a>
+  {{ partial "frontpage-list-item.html" . }}
 {{ end  }}
+</ul>

@@ -3,7 +3,7 @@ areas = []
 date = 2022-06-17T08:00:00Z
 frontpage = false
 p_projects = ""
-p_resource = []
+p_resource = ["opendata"]
 title = "Welche wichtigen Metadatenfelder werden von Kommunen in Deutschland benutzt? "
 updated = ""
 

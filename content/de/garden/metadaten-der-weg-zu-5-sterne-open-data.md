@@ -3,7 +3,7 @@ areas = []
 date = 2022-06-03T15:00:00Z
 frontpage = true
 p_projects = ""
-p_resource = []
+p_resource = ["opendata"]
 title = "Metadaten, der Weg zu 5 Sterne Open Data?"
 updated = ""
 
