@@ -16,6 +16,8 @@
 
 {{< email class="mt-8" title="get-in-touch">}}
 
+{{< newsletter-front title="get-in-touch">}}
+
 {{< articles "frontpage" >}}
 {{</ articles >}}
 {{< garden >}}

@@ -2,7 +2,7 @@
 areas = []
 date = 2021-11-15T09:00:00Z
 p_projects = ""
-p_resource = []
+p_resource = ["opendata"]
 title = "Open Data Portale aus Schweden"
 
 +++

@@ -2,7 +2,7 @@
 areas = []
 date = 2021-12-01T14:00:00Z
 p_projects = ""
-p_resource = []
+p_resource = ["opendata"]
 title = " Mustervorlage Datenhoheit in Kommunen bei Vergaben"
 
 +++

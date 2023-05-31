@@ -2,7 +2,7 @@
 areas = []
 date = 2022-04-25T08:00:00Z
 p_projects = ""
-p_resource = []
+p_resource = ["opendata"]
 title = "Geänderte Verbindlichkeiten bei DCAT-AP.de"
 frontpage=true
 +++

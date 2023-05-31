@@ -3,7 +3,7 @@ areas = []
 date = 2022-05-02T13:00:00Z
 frontpage = true
 p_projects = ""
-p_resource = []
+p_resource = ["opendata"]
 title = "Neue DCAT-AP.de Eigenschaften: Datensatz"
 
 +++
