@@ -1,5 +1,6 @@
 ---
 title: Mehr über dich
+layout: default
 ---
 # Ich würde gerne mehr über dich erfahren
 
