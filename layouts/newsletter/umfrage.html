@@ -1,7 +1,7 @@
-{{block nav }}
+{{define "nav" }}
   {{ partial "nav" . }}
 {{endblock }}
-{{block main }}
+{{define "main" }}
   <article class="mt-8">
     <header>
       <h1 class="font-sans text-4xl text-black font-bold mb-4">
@@ -13,6 +13,6 @@
     </div>
   </article> 
 {{endblock }} 
-{{block footer }}
+{{define "footer" }}
   {{ partial "footer" . }}
 {{endblock }}
