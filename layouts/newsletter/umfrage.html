@@ -1,0 +1,18 @@
+{{block nav }}
+  {{ partial "nav" . }}
+{{endblock }}
+{{block main }}
+  <article class="mt-8">
+    <header>
+      <h1 class="font-sans text-4xl text-black font-bold mb-4">
+        {{.Title}}
+      </h1>
+    </header>
+    <div class="font-sans text-lg text-grey-darkest spaced-y-6 leading-normal">
+      {{.Content}}
+    </div>
+  </article> 
+{{endblock }} 
+{{block footer }}
+  {{ partial "footer" . }}
+{{endblock }}
