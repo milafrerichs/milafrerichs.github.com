@@ -1,5 +1,6 @@
 ---
 title: Mehr über dich
+layout: umfrage
 ---
 # Ich würde gerne mehr über dich erfahren
 
