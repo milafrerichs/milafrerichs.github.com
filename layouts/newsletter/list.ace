@@ -4,7 +4,7 @@
   .font-sans.text-lg.text-grey-darkest.spaced-y-6
     {{.Content}}
     .mt-16
-      {{ range .Pages.ByDate.Reverse }}
+      {{ range where .Pages.ByDate.Reverse "Params.hidden" "ne" "true" }}
         .mb-16
           {{ if .Params.images }}
           a.relative.block.mb-1.text-lg.text-black.font-bold.no-underline.hover:underline href="{{ .Permalink }}"

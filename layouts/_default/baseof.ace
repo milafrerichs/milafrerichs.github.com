@@ -21,7 +21,7 @@ html lang=en
     {{ template "_internal/twitter_cards.html" . }}
   body
     = yield nav
-    main.container.py-8.relative.px-4.md:p-0 role="main"
+    main.container.py-8.relative.px-4.md:p-0.mt-16 role="main"
       = yield language
       = yield header
       = yield main
