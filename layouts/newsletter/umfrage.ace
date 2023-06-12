@@ -1,0 +1,7 @@
+= content nav
+  {{ partial "nav" . }}
+= content main
+  .my-14.md:mb-36
+    {{.Content}}
+= content footer
+  {{ partial "footer" . }}
