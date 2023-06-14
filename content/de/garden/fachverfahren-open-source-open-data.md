@@ -1,6 +1,11 @@
----
-title: Bessere Fachverfahren für mehr (Offene) Daten
----
++++
+areas = []
+date = 2023-06-14T08:00:00Z
+p_projects = ""
+p_resource = ["opendata"]
+title = "Bessere Fachverfahren für mehr (Offene) Daten"
+frontpage=true
++++
 Bei der fortschreitenden Digitalisierung und der Umsetzung von OZG und damit von bestimmten Fachverfahren sollte man zwei Dinge beachten.
 
 1. Festschreibung von Open Source
