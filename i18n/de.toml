@@ -3,7 +3,7 @@ other="Das Potential von Offenen Daten auszuschöpfen ist meine Mission!"
 [headMeSubhead]
 other="Hi, ich bin Mila aus Berlin :)"
 [tagline]
-other="Seit mehr als 7 Jahren beschäftige ich mich mit Offenen Daten und helfe Organisationen das Potential von Offenen Daten voll auszuschöpfen. Sei es mit dem erstellen von Offenen Daten Tools, Prototypen, oder mit Datenvisualisierungen."
+other="Seit mehr als {{.}} Jahren beschäftige ich mich mit Offenen Daten und helfe Organisationen das Potential von Offenen Daten voll auszuschöpfen. Sei es mit dem erstellen von Offenen Daten Tools, Prototypen, oder mit Datenvisualisierungen."
 [workWithMe]
 other="Mit mir arbeiten!"
 [help-with-headline]
