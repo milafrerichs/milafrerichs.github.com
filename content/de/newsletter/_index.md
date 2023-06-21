@@ -4,9 +4,4 @@ linktitle = "Newsletter"
 [menu.main]
 weight = 0
 +++
-# Offenen Daten Newsletter
-
-Ich starte einen Newsletter zu Offenen Daten. Mit E-Mails zu Themen wie 5 Sterne Open Data, Prozesse, Datenportale, Metadaten, Automatisierung und mehr. 
-
-
-{{< newsletter >}}
+{{< newsletter-hero >}}
