@@ -1,10 +1,10 @@
 ---
 title: DCAT-AP.de Portal Validator
-date: "2013-05-18"
+date: "2023-05-18"
 technologies:
   - python
 cloudinary: "milafrerichs.com/projects/validator.png"
-client: internal
+client: Open Source Tool
 link: "https://github.com/offenedatenberatung/validate-portal-metadata"
 categories:
 - opendata
