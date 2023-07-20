@@ -1,6 +1,6 @@
 +++
 areas = []
-date = 2023-07-10T08:00:00Z
+date = 2023-07-17T08:00:00Z
 p_projects = ""
 p_resource = ["opendata"]
 title = "Ist das Feld Offene Daten in einer Präsentationsfalle?"
