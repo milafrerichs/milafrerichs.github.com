@@ -1,7 +1,7 @@
 +++
 title="Portal vs. Webseite für Offene Daten"
 areas = []
-date = 2023-07-07T08:00:00Z
+date = 2023-07-20T08:00:00Z
 p_projects = ""
 p_resource = ["opendata"]
 frontpage=true
