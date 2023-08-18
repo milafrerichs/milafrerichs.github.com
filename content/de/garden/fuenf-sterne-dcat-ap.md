@@ -6,7 +6,7 @@ p_resource = ["opendata"]
 title = "Mache ich 5 Sterne Open Data wenn ich DCAT-AP.de vollständig umgesetzt habe?"
 updated = ""
 +++
-Diese Frage kommt immer mal wieder auf und werde ich habe eine Meinung dazu.
+Diese Frage kommt immer mal wieder auf und ich habe eine klare Meinung dazu.
 
 Die kurze Antwort ist: Nein.
 
