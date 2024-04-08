@@ -6,6 +6,7 @@ featured: ["frontpage"]
 ---
 Das Jahr 2024 wird das Jahr von Linked Open Data in Deutschland! Ich habe das im Gefühl. 
 
+<!--more-->
 Ich bin mit mehreren Kommunen und Ländern im Gespräch über die Implementierung von Linked Open Data. 
 Und auch die OGP Verpflichtungen werden dazu führen dass LOD mehr in den Fokus kommt. 
 

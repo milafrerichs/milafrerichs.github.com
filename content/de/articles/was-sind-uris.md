@@ -2,10 +2,11 @@
 title: Was sind URIs
 date: 2024-03-12 16:08:58 +0000
 draft: false
+canonical: "https://offenedatenberatung.de/resources/wassinduris/"
 featured: ["frontpage"]
 ---
 Hier eine kurze Einführung in eines der wichtigsten Konzepte für Linked Open Data (LOD), ohne das dieses LOD nicht funktionieren würde: __URIs__. 
-
+<!--more-->
 Uniform Resource Identifier (URI) sind wie Adressen im Internet (URL). Sie identifizieren eindeutig Ressourcen wie Webseiten, Dokumente, Bilder oder sogar abstrakte Konzepte wie Personen und Orte. Sie dienen dazu, im Semantic Web eindeutige Kennungen für verschiedene Dinge bereitzustellen, sodass sie besser verstanden und miteinander verknüpft werden können. Wir können diese URIs selbst definieren, sollten uns aber an Konventionen orientieren, wie wir diese definieren. Vielfach wird für LOD eine Sub-Domain verwendet. Zum Beispiel data.xyz.de oder lod.xyz.de.
 
 Aus der Schweiz zum Beispiel sind viele URIs so formatiert: https://lindas.admin.ch/nl/isil
