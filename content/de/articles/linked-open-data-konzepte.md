@@ -3,8 +3,11 @@ title: Was muss ich lernen für Linked Open Data?
 date: 2024-02-02 16:08:58 +0000
 draft: false
 featured: ["frontpage"]
+canonical: "https://offenedatenberatung.de/resources/linked-open-data-konzepte/"
 ---
-Um Linked Open Data zu verstehen, müssen wir uns ein paar Konzepte anschauen und verstehen. Für viele sind diese neu, für andere können diese bekannt vorkommen. Wenn Sie sich schon ein mal Metadaten angeschaut haben, dann sind Sie schon mit vielen Konzepten von Linked Open Data in Berührung gekommen. Metadaten werden seit ein paar Jahren als RDF Dateien veröffentlicht und vielfach werden auch URIs verwendet. Dies sind die beiden wichtigsten Bausteine für Linked Open Data.
+Um Linked Open Data zu verstehen, müssen wir uns ein paar Konzepte anschauen und verstehen. Für viele sind diese neu, für andere können diese bekannt vorkommen. Wenn Sie sich schon ein mal Metadaten angeschaut haben, dann sind Sie schon mit vielen Konzepten von Linked Open Data in Berührung gekommen.  
+<!--more-->
+Metadaten werden seit ein paar Jahren als RDF Dateien veröffentlicht und vielfach werden auch URIs verwendet. Dies sind die beiden wichtigsten Bausteine für Linked Open Data.
 Aber was genau ist Linked Open Data?
 Linked Open Data zielt darauf ab, Daten im Internet miteinander zu verknüpfen, um sie leichter zugänglich und nutzbar zu machen. Und mit der Verknüpfung einen Mehrwert zu schaffen.
 LOD ermöglicht es, Daten aus verschiedenen Quellen zusammenzuführen und zu integrieren, um neue Erkenntnisse zu gewinnen.

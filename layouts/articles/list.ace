@@ -1,17 +1,22 @@
 = content nav
   {{ partial "nav" . }}
 = content main
-  .mt-24.font-sans.text-lg.text-grey-darkest.spaced-y-6
+  h2.text-3xl.tracking-tight.font-extrabold.text-grey-darkest.sm:text-4xl
+    {{.Title}}
+  .mt-6.text-xl.text-gray-600.sm:mt-4.spaced-y-8.prose
     {{.Content}}
-    .mt-16
-      {{ range .Pages.ByDate.Reverse }}
-        .mb-16
-          a.block.mb-1.text-lg.text-black.font-bold.no-underline.hover:underline href="{{ .Permalink }}" {{ .Title }}
-          p.text-grey-darkest.text-base.leading-normal.mt-2
-            {{.Summary}}
-          {{ if .Truncated }}
-            a.block.mt-2.font-normal.text-base.text-grey-dark.no-underline.hover:underline href="{{ .RelPermalink }}" Read More
-          {{ end }}
-      {{ end }}
+  div class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16"
+    {{ range .Pages.ByDate.Reverse }}
+      article class="flex max-w-xl flex-col items-start justify-between"
+        div class="flex items-center gap-x-4 text-xs"
+          time datetime="{{.Date}}" class="text-gray-500" {{dateFormat "2. Jan 2006" .Date}}
+          a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+        div class="group relative"
+          h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600"
+            a href="{{.RelPermalink}}"
+              span class="absolute inset-0"
+              {{.Title}}
+          p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600" {{.Summary}}
+    {{end}}
 = content footer
   {{ partial "footer" . }}

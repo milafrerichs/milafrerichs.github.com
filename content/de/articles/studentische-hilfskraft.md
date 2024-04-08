@@ -1,9 +1,7 @@
 ---
 title: Studentische Hilfskraft gesucht
 date: 2020-07-22T16:08:58.000+00:00
-featured:
-- frontpage
-
+published: false
 ---
 # Studentische Hilfskraft
 

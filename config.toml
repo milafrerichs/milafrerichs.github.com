@@ -14,6 +14,7 @@ keywords = ["Data Visualization", "Consultant", "Data Storytelling", "Geospatial
 
   [languages.de.permalinks]
   garden = "/garten/:slug/"
+  articles = "/artikel/:slug/"
 
   [languages.en]
   contentDir = "content/en"
