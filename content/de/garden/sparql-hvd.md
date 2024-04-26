@@ -5,6 +5,7 @@ p_projects = ""
 p_resource = ["opendata"]
 title = "HVD-konforme API mit Linked Open Data"
 frontpage=true
+draft=false
 +++
 Für die Veröffentlichung von High Value Daten braucht es neben dem Datendownload auch einen API-Endpunkt. Das ist erstmal deutlich mehr Aufwand und sollte jeden der HVD Daten veröffentlichen will pausieren lassen. 
 
