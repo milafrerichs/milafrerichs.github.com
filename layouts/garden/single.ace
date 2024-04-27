@@ -15,7 +15,7 @@
           {{end}}
         {{.Title}}
     .font-sans.text-lg.text-gray-800.leading-normal.prose.lg:prose-xl
-      {{ partial "content-wikilinks" . }}
+      {{ partial "content-with-wikilinks" . }}
 
     {{ if in .Params.p_resource "opendata" }}
       {{ partial "newsletter.html" . }}
