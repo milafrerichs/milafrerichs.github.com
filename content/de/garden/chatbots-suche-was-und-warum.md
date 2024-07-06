@@ -1,6 +1,6 @@
 ---
 title: "Wie funktionieren Chatbots und warum können wir damit unsere Suche verbessern?"
-date: 2024-07-06 17:08:58 +0000
+date: 2024-07-06 17:03:58 +0000
 draft: false
 featured: ["frontpage"]
 ---
@@ -8,6 +8,7 @@ KI kann nicht nur dabei helfen, Texte zu generieren, sondern wird auch genutzt u
 Wenn eine Kommune eine Ausschreibung macht für einen Chatbot sollte sie dafür sorgen, dass sie die Beantwortung der Fragen auch anders nutzen können.
 
 <!—more—>
+
 Viele Chatbots nutzen Systeme um der KI Fakten beizubringen. Diesen Schritt kann man auch für die eigenen Suche verwenden. 
 Wir nehmen die ersten Schritte des Chatbots, bevor die Antwort generiert wird und zeigen dem Benutzer nur die Egebnisse die die KI zusammenfassen und eine Antwort genieren würde.
 

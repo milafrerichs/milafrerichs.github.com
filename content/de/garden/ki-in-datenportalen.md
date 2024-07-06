@@ -1,6 +1,6 @@
 ---
 title: "KI in Datenportalen"
-date: 2024-07-06 17:08:58 +0000
+date: 2024-07-06 17:05:00 +0000
 draft: false
 featured: ["frontpage"]
 ---
