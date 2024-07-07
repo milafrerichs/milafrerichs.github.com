@@ -1,13 +1,13 @@
 ---
 title: "KI in Datenportalen"
-date: 2024-07-06 17:05:00 +0000
+date: 2024-07-07 10:05:00 +0000
 draft: false
 featured: ["frontpage"]
 ---
 KI ist in aller Munde und alle wollen irgendwie ihre Produklte mit KI anreichern um zu zeigen dass sie super sind und evtl mehr Förderungen zu bekommen.
 
 Wie kann KI in Datenportalen aussehen? 
-<!—-more-—>
+<!--more-->
 
 Die einfachste Integration ist die Verbesserung der Suche. [[chatbots-suche]]
 
