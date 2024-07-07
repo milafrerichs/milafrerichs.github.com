@@ -6,7 +6,7 @@ featured: ["frontpage"]
 ---
 KI kann nicht nur dabei helfen, Texte zu generieren, sondern wird auch genutzt um die richtigen Fakten zu finden.
 Wenn eine Kommune eine Ausschreibung macht für einen Chatbot sollte sie dafür sorgen, dass sie die Beantwortung der Fragen auch anders nutzen können.
-<!—-more—->
+<!--more-->
 
 Viele Chatbots nutzen Systeme um der KI Fakten beizubringen. Diesen Schritt kann man auch für die eigenen Suche verwenden. 
 Wir nehmen die ersten Schritte des Chatbots, bevor die Antwort generiert wird und zeigen dem Benutzer nur die Egebnisse die die KI zusammenfassen und eine Antwort genieren würde.

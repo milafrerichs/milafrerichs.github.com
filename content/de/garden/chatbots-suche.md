@@ -7,7 +7,7 @@ featured: ["frontpage"]
 
 Wenn Sie in Ihrer Kommune einen ChatBot integrieren wollten, sollten Sie auch ihre Suche verbessern.
 AI kann dabei helfen auch ihre normale Suche für 90% der Bevölkerung zu verbessern.
-<!—-more-—>
+<!--more-->
 
 Denn ein Chatbot ist auch nur eine Suche, implementieren sie also die KI Bausteine direkt auch in Ihre Suche.
 
