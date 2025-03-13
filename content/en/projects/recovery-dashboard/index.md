@@ -4,7 +4,7 @@ date: "2015-05-23"
 technologies:
   - openlayers
   - angular
-cloudinary: "milafrerichs.com/projects/recovery-dashboard-nepal-png"
+cloudinary: "milafrerichs.com/projects/recovery-dashboard-nepal.png"
 client: Terranodo
 link: "https://wazimap.com"
 categories:
