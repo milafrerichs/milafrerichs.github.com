@@ -1,13 +1,11 @@
 +++
 areas = []
 date = 2025-04-10T09:42:43+02:00
-frontpage = false
+frontpage = true
 p_projects = ""
 p_resource = []
-title = " Wie können wir unser Datenportal optimieren für eine bessere Benutzbarkeit und "
+title = "5 Wege wie wir Datenportale optimieren können"
 +++
-
-
 
 ## Suche verbessern
 Die Suche der meisten Portale ist eine einfache Textsuche und vielfach nur genaue Begriffe werden gefunden. Das geht besser.
