@@ -1,8 +1,12 @@
 var script = document.createElement('script');
 script.src = "https://cdn.metrical.xyz/script.js";
 document.body.append(script);
+var metrical = "5ardjg6ou";
+if(location.hostname == "milafrerichs.de"){
+  metrical = "qkOcKAUILf";
+}
 window.metrical = {
-  "app": "5ardjg6ou"
+  "app": metrical
 };
 function addLoadEvent(func) {
   var oldonload = window.onload;
