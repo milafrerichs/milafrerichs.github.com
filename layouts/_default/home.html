@@ -1,0 +1,16 @@
+{{ define "nav" }}
+  {{ .Scratch.Set "onScroll" true  }}
+  {{ partial "nav" . }}
+{{ end }}
+{{ define "language" }}
+  {{ partial "change-language" .}}
+{{ end }}
+{{ define "main" }}
+  <div id="bg-image" class="left-0 top-0 bg-cover bg-center fixed w-full h-screen" style="z-index:-2;background-image: url(https://res.cloudinary.com/civicvision/image/upload/q_auto,dpr_auto,c_limit/milafrerichs.com/me_bg.jpg)"></div>
+  <div class="font-sans text-lg text-gray-800">
+    {{.Content}}
+  </div>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}

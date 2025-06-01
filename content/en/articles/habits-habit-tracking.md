@@ -21,8 +21,6 @@ So this year I want to get better with my habits (using habit stacking (read Ato
 
 I’m going to pick up Stefanie’s tracking and adding another one that I discovered in this [thread](https://twitter.com/BrendanHufford/status/1214205273826611200) that started it again this morning and I funneled my inner Picasso ;)
 
-{{< tweet 1214205273826611200 >}}
-
 ![](https://res.cloudinary.com/civicvision/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_limit/milafrerichs.com/articles/habit-tracking.jpg)
 
 I built this in GoodNotes on my iPad because I want digital and not physical copies. I'm better at drawing on my iPad with support than on real paper and this way I always have a way to track my habits even when I'm on the road.

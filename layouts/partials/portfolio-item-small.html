@@ -1,0 +1,12 @@
+{{ $image := .image }}
+{{ if .cloudinary }}
+  {{ $image = printf "%s%s" "https://res.cloudinary.com/civicvision/image/upload/" .cloudinary }}
+{{ end }}
+<div class="flex h-64 mb-8 md:mb-16 w-1/2 px-8">
+  <div class="shadow-pop w-full bg-white relative">
+    <img class="cover-center block" src="{{$image}}" alt="{{.title}}">
+    <div class="absolute pin-b w-full bg-grey-lighter">
+      <h2 class="text-grey-darkest text-lg mb-3 xl:mb-6 leading-normal">{{.title}}</h2>
+    </div>
+  </div>
+</div>

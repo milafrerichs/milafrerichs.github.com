@@ -1,0 +1,27 @@
+{{ define "main" }}
+  {{ partial "nav" . }}
+  <article>
+    <header>
+      {{ partial "breadcrumps" . }}
+      <h1 class="font-sans text-4xl text-black font-bold mb-4 mt-6">
+        {{.Title}}
+      </h1>
+    </header>
+    <div class="font-sans text-lg text-grey-darkest leading-normal prose">
+      {{.Content}}
+    </div>
+    {{ if $.Param "notebook" }}
+      {{ partial "observable" . }}
+    {{ end  }}
+
+    <div class="mt-16">
+      <h4> {{ i18n "favorite-articles" . }}</h4>
+      {{ partial "articles" (dict "context" . "type" "frontpage" "limit" 5)}}
+
+    {{ if in .Params.p_resource "opendata" }}
+      {{ partial "newsletter.html" . }}
+    {{end}}
+    </div>
+  </article>
+  {{ partial "footer" . }}
+{{ end }}

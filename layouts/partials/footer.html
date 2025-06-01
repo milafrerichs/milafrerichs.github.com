@@ -1,0 +1,42 @@
+<footer class="font-sans md:py-8 py-4 px-4">
+  <div class="mx-auto container overflow-hidden flex flex-col justify-between text-center">
+    <div class="w-full flex-grow md:flex md:items-center md:w-auto">
+      <div class="text-sm md:flex-grow">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.footer }}
+          <a class="block mt-4 md:inline-block md:mt-0 text-grey-darker hover:text-grey-dark mr-4 {{ if $currentPage.IsMenuCurrent "main" . }}underline{{else}}no-underline{{end}}" href="{{.URL}}">{{.Name}}</a>
+        {{ end }}
+      </div>
+    </div>
+    <ul class="text-grey-dark list-reset font-thin flex text-center justify-center text-2xl py-2 flex-col">
+      <li class="pt-2">☕️🐕❄️☀️</li>
+      <li class="pt-2">🥃</li>
+      <li class="pt-2">⚾️🏈🏄‍♂️🏊‍♂️🏂🧗‍♀️</li>
+      <li class="pt-2">🍣🍔🌮🌯🍕</li>
+      <li class="pt-2">🗺🏔🏟✈️🚍🚃</li>
+    </ul>
+    <div class="text-grey-dark font-thin flex text-center justify-center text-2xl py-2">
+      <a class="items-center text-white hover:text-grey mr-3 no-underline" rel="me" href="https://github.com/milafrerichs">
+        {{ partial "github" "w-5"}}
+      </a>
+      <a class="items-center text-white hover:text-grey mr-3 no-underline" rel="me" href="https://twitter.com/milafrerichs">
+        {{ partial "twitter" "w-5"}}
+      </a>
+      <a class="items-center text-white hover:text-grey mr-3 no-underline" href="https://micro.blog/milafrerichs/">
+        {{ partial "microblog" "w-5"}}
+      </a>
+      <a class="items-center text-white hover:text-grey no-underline" href="https://www.instagram.com/mila_frerichs/">
+        {{ partial "instagram-logo" "w-5"}}
+      </a>
+    </div>
+    <div class="text-xs pt-2 mt-2 text-grey-darker text-center">©2020 Mila Frerichs. All rights reserved.</div>
+    <ul class="text-grey-dark list-reset font-thin flex text-left justify-center">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.sub_footer }}
+        <li>
+          <a class="inline-block text-xs py-2 px-3 text-grey hover:text-grey-light no-underline" href="{{.URL}}">{{.Title}}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</footer>

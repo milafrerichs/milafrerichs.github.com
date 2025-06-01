@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ partial "nav" . }}
+  <main>
+    <h2 class="text-3xl tracking-tight font-extrabold text-grey-darkest sm:text-4xl">
+      {{.Title}}
+    </h2>
+    <div class="mt-6 text-xl text-gray-600 sm:mt-4 spaced-y-8 prose">
+      {{.Content}}
+    </div>
+    <div class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="flex max-w-xl flex-col items-start justify-between">
+          <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="{{.Date}}" class="text-gray-500">{{dateFormat "2. Jan 2006" .Date}}</time>
+            <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"></a>
+          </div>
+          <div class="group relative">
+            <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+              <a href="{{.RelPermalink}}">
+                <span class="absolute inset-0"></span>
+                {{.Title}}
+              </a>
+            </h3>
+            <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{.Summary}}</p>
+          </div>
+        </article>
+      {{end}}
+    </div>
+  </main>
+  {{ partial "footer" . }}
+{{ end }}

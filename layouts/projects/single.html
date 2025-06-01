@@ -1,0 +1,18 @@
+{{ define "nav" }}
+  {{ partial "nav" . }}
+{{ end }}
+{{ define "main" }}
+  <div class="mt-16">
+    <img class="mb-16 shadow-pop" src="https://res.cloudinary.com/civicvision/image/upload/{{.Params.cloudinary}}" />
+    <h1 class="font-sans text-4xl text-black font-bold mb-4">
+      {{.Title}}
+    </h1>
+    <h3 class="mb-4">{{.Params.work}}</h3>
+    <div class="font-sans text-lg text-grey-darkest spaced-y-6 leading-normal">
+      {{.Content}}
+    </div>
+  </div>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}

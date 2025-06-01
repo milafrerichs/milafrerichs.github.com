@@ -1,0 +1,33 @@
+{{ $image := .image }}
+{{ if .cloudinary }}
+  {{ $image = printf "%s%s" "https://res.cloudinary.com/civicvision/image/upload/" .cloudinary }}
+{{ end }}
+<div class="shadow-pop bg-white flex h-64 xl:h-128 mb-8 md:mb-16">
+  <div class="hidden md:w-2/5 lg:w-1/3 md:flex flex-col flex-1 bg-grey-lightest">
+    <div class="p-10">
+      <h2 class="text-3xl mb-3 xl:mb-6 leading-normal break-all">{{.title | safeHTML }}</h2>
+      <h4 class="text-grey-darker font-light mb-6">{{ default "Private Project" .client }}</h4>
+      <p class="text-grey-dark text-xl leading-normal hidden xl:block">
+        {{.description | markdownify }}
+      </p>
+    </div>
+  </div>
+
+  <div class="w-full lg:w-2/3 relative">
+    <div class="hidden hover-show absolute w-full h-full z-10">
+      <div class="block md:hidden p-16 text-center">
+        <h2 class="text-grey-lightest text-3xl mb-3 xl:mb-6 leading-normal">{{.title}}</h2>
+      </div>
+      <div class="hidden p-16 text-center">
+        <p class="text-grey-lightest text-xl leading-normal lg:block">
+          {{.description | markdownify }}
+        </p>
+      </div>
+    </div>
+    <div class="hidden hover-show">
+      <div class="block xl:hidden absolute w-full h-full bg-grey-darkest opacity-75"></div>
+    </div>
+    <img class="cover-center block" src="{{$image}}" alt="{{.title}}">
+  </div>
+</div>
+

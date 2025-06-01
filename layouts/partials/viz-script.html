@@ -1,14 +1,15 @@
+{{ $vizmode := "vega-lite" }}
+{{ if .Get "mode" }}
+  {{ $vizmode := .Get "mode" }}
+{{ else }}
+  {{ $vizmode := "vega-lite" }}
+{{ end }}
+{{ $data := .Get "data" }}
+{{ $dataJ := index .Site.Data $data | jsonify }}
+
 <script type="text/javascript">
 	viz = function() {
-    {{ $vizmode := "vega-lite" }}
-    {{ if .Get "mode" }}
-    {{ $vizmode := .Get "mode" }}
-    {{ else }}
-    {{ $vizmode := "vega-lite" }}
-    {{ end }}
-    {{ $url := (printf "%s%s%s" "data/" (.Get "data") ".json")}}
-    {{ $dataJ := getJSON $url }}
-    vizSpec = {{$dataJ}};
+    vizSpec = JSON.parse('{{$dataJ | safeJS}}');
     opt = { mode: "{{$vizmode | safeJS}}", actions: false };
     var width, clientWidth;
     {{ if .Get "width" }}

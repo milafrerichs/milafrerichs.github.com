@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="muu33Ix4WWGE23IzCYzZCiIlPyGbTNBewVjLjRF6ITA">
+    <link href="https://micro.blog/milafrerichs" rel="me">
+    <link rel="stylesheet" href="{{ $style := resources.Get "css/styles.css" | css.PostCSS (dict "config" "./assets/css/postcss.config.js") }}{{ $style.Permalink }}">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    {{ if isset .Params "canonical" }}
+    <link rel="canonical" href="{{.Params.canonical}}">
+    {{ end }}
+    <meta name="description" content="{{ if or .IsHome (not (isset .Params "description")) }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
+    {{ if isset .Params "viz" }}
+    {{ partial "vega" . }}
+    {{ end }}
+    {{ partial "rightmessage" . }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+</head>
+<body>
+    {{ block "nav" . }}{{ end }}
+    <main class="container py-8 relative px-4 md:p-0 {{if .IsHome}}mt-2{{else}}mt-16{{end}}" role="main">
+        {{ block "language" . }}{{ end }}
+        {{ block "header" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ end }}
+    <script type="text/javascript" src="/js/main.js"></script>
+    {{ with templates.Current }}
+  <div class="debug">
+    {{ range .Ancestors }}
+      {{ .Filename }}<br>
+      {{ with .Base }}
+        {{ .Filename }}<br>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}
+</body>
+</html>

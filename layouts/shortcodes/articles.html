@@ -1,4 +1,4 @@
-{{ $page := $.Site.Sites.First.GetPage (.Get 1 | default "articles")}}
+{{ $page := $.Site.Sites.Default.GetPage (.Get 1 | default "articles")}}
 {{ range where $page.AllTranslations ".Language.Lang" $.Site.Language.Lang}}
 {{ $page = . }}
 {{end}}

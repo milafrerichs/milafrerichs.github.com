@@ -1,7 +1,6 @@
 ---
 title: "Mein Weg zu GovTech: Warum Transparenz und Effizienz Hand in Hand gehen müssen"
 date: 2024-07-22T16:08:58.000+00:00
-published: true
 featured: ["frontpage"]
 ---
 Schon während meiner Schulzeit und zu Beginn meines Studiums stieß ich in meiner politischen Arbeit immer wieder auf administrative und politische Prozesse, die mich durch ihre Ineffizienz und Intransparenz frustrierten. Ein wiederkehrendes Ärgernis war beispielsweise, dass Erklärungen von Verwaltungsseite oft nur mündlich erfolgten oder wichtige Unterlagen erst unmittelbar am Tag der Sitzung kurzfristig „einsehbar“ waren – ein Zustand, der sich teilweise bis heute hält.

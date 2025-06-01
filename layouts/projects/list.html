@@ -1,0 +1,21 @@
+{{ define "nav" }}
+  {{ partial "nav" . }}
+{{ end }}
+
+{{ define "main" }}
+  <div class="font-sans text-lg text-grey-darkest spaced-y-6">
+    {{ .Content }}
+    <ul class="list-reset mt-16 spaced-y-8">
+      {{ range sort (where $.Site.Data.projects ".featured" true) "date" "desc" }}
+        <div class="projects">
+          {{ partial "portfolio-item" . }}
+        </div>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}
+

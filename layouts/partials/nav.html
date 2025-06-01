@@ -1,0 +1,21 @@
+<nav class="fixed top-0 w-full bg-white z-10 font-sans {{if .Scratch.Get "onScroll" }}scroll-nav{{end}}">
+  <div class="flex flex-wrap justify-start items-center py-4 overflow-hidden container">
+    <a class="mr-4" href="{{ "/" | relLangURL  }}" mf></a>
+    <div class="block md:hidden">
+      <button id="menu" class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+        <svg class="fill-current h-3 w-3" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+        </svg>
+      </button>
+    </div>
+    <div id="menu-items" class="w-full flex-grow md:flex md:items-center md:w-auto hidden md:block">
+      <div class="text-sm md:flex-grow">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <a class="block mt-4 md:inline-block md:mt-0 text-grey-darker hover:text-grey-dark mr-4 {{ if $currentPage.IsMenuCurrent "main" . }}underline{{else}}no-underline{{end}}" href="{{.URL}}">{{.Name}}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</nav>

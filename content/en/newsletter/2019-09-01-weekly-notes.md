@@ -30,7 +30,7 @@ A nice transition from just raw data to heat map and later to insight. (Thanks J
 
 # Data Visualization
 
-## [Where can you afford to rent in California?]((https://www.latimes.com/projects/california-rental-calculator-map/))
+## [Where can you afford to rent in California?](https://www.latimes.com/projects/california-rental-calculator-map/)
 
 ![](https://res.cloudinary.com/civicvision/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_limit/milafrerichs.com/newsletter/data-viz/rent-california-latimes.png)
 

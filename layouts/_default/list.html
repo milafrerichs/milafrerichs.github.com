@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <div class="font-sans text-lg text-gray-800 leading-normal prose lg:prose-xl spaced-y-6">
+    {{.Content}}
+    <ul class="list-reset mt-16 spaced-y-8">
+      {{ range .Pages }}
+        <li>
+          <span class="block text-grey-dark uppercase font-semibold text-xs tracking-wide mb-2">{{dateFormat "Jan 2, 2006" .Date}}</span>
+          <a class="text-lg text-black font-bold no-underline hover:underline" href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="debug">[entering {{ templates.Current.Filename }}]</div>
+    {{ with templates.Current }}
+  <div class="debug">
+    {{ range .Ancestors }}
+      {{ .Filename }}<br>
+      {{ with .Base }}
+        {{ .Filename }}<br>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}
+{{ end }}
+
+{{ define "nav" }}
+  {{ partial "nav" . }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}

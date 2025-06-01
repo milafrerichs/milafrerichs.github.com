@@ -1,8 +1,9 @@
 ---
 title: Studentische Hilfskraft gesucht
 date: 2020-07-22T16:08:58.000+00:00
-published: false
+draft: true
 ---
+
 # Studentische Hilfskraft
 
 **Bezahlung**: 400-600€ pro Monat Werkvertrag (verhandelbar)  

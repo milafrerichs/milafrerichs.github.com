@@ -1,0 +1,52 @@
+{{ define "nav" }}
+  {{ partial "nav" . }}
+{{ end }}
+
+{{ define "main" }}
+  <article class="mt-24 text-lg max-w-readable mx-auto container">
+    <header>
+      {{ partial "breadcrumps" . }}
+      <h1 class="font-sans text-4xl text-black font-bold mb-16 mt-6">
+        <span class="block text-grey-dark uppercase font-semibold text-xs tracking-wide mb-2 spaced-x-1">
+          <time datetime="{{.Date}}">{{dateFormat "Jan 2, 2006" .Date}}</time>
+          {{ if .Params.updated }}
+            <span aria-hidden="true">&middot;</span>
+            <span>
+              <span>Updated: &nbsp;</span>
+              <time datetime="{{.Params.updated}}">{{dateFormat "Jan 2, 2006" .Params.updated}}</time>
+          {{end}}
+        </span>
+        {{.Title}}
+      </h1>
+    </header>
+    <div class="font-sans text-lg text-gray-800 leading-normal prose lg:prose-xl">
+      {{ partial "content-with-wikilinks" . }}
+    </div>
+
+    {{ if in .Params.p_resource "opendata" }}
+      {{ partial "newsletter.html" . }}
+    {{end}}
+    {{ $backlinks := partial "func/backlinks" . }}
+    {{ if ge (len $backlinks) 1 }}
+    <div class="mt-16">
+      <h4 class="text-grey-dark mb-6">{{ i18n "backlinks" }}</h4>
+      <ul class="reset-list">
+      {{range $backlinks}}
+        <li class="text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform rotate-45" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M14.707 10.293a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L9 12.586V5a1 1 0 012 0v7.586l2.293-2.293a1 1 0 011.414 0z" clip-rule="evenodd" transform="rotate(135,12,12)"></path>
+          </svg>
+          <a href="{{.link}}">{{.title}}</a>
+        </li>
+      {{end}}
+      </ul>
+    </div>
+    {{ end }}
+  </article>
+{{ end }}
+
+{{ define "footer" }}
+  <div class="mt-24">
+    {{ partial "footer" . }}
+  </div>
+{{ end }}
